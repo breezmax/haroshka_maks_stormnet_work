@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+    <style>
+        /* header > p, main > p, footer > p {font-size: 18px; font-family: Verdana;} альтернативный вариант без :is*/
+        :is(header, main, footer) > p  {font-size: 18px; font-family: Verdana;}
+    </style>
+</head>
+<body>
+<header>
+    <p>Text in Header</p>
+    <div><p>Text in Header Div</p></div>
+</header>
+<main>
+    <p>Text in Main</p>
+    <div><p>Text in Main Div</p></div>
+</main>
+<footer>
+    <p>Text in Footer</p>
+    <div><p>Text in Footer Div</p></div>
+</footer>
+</body>
+</html>
