@@ -4,6 +4,11 @@
     <test name="herokuappSuite">
         <classes>
             <class name="herokuapp.AddRemoveElementsTest"/>
+            <class name="herokuapp.CheckboxesTest"/>
+            <class name="herokuapp.DropdownTest"/>
+            <class name="herokuapp.InputsTest"/>
+            <class name="herokuapp.HoversTest"/>
+            <class name="herokuapp.NotificationsTest"/>
         </classes>
     </test>
 </suite>
