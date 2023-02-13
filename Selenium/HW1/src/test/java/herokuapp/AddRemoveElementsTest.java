@@ -26,8 +26,5 @@ public class AddRemoveElementsTest extends BaseTest {
         removeElementButton.click();
 
         System.out.printf("Final count of elements: %s\n", driver.findElements(By.className("added-manually")).size());
-
-
-
     }
 }
